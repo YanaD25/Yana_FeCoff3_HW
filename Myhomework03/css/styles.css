@@ -1,0 +1,121 @@
+body {
+     font-family:'PlayfairDisplay', serif;
+     color: #626262;
+     font-size: 14px;
+     line-height: 24px;
+     width: 1200px;
+     margin: auto;
+}
+.list {
+    display: inline
+}
+.general list {
+    text-align: center
+}
+.heading1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PlayfairDisplay', serif;
+    color: #03a9f4;
+    padding-left: 270px;
+}
+.heading2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PlayfairDisplay', serif;
+    color: #626262;
+    margin-left: 120px;
+}
+.heading3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PlayfairDisplay', serif;
+    color: #626262;
+    margin-left: 100px;
+}
+.heading4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PlayfairDisplay', serif;
+    color: #626262;
+    margin-left: 95px;
+}
+.list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    font-family: "PlayfairDisplay", serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.heading1 a {
+    color:#03a9f4;
+
+}
+article {
+    display: inline-block;
+    width: 421px;
+}
+.block1 {
+    margin-left: 150px;
+}
+.block2 {
+    margin-left: 61px;
+}
+.block3 {
+    margin-left: 150px;
+    margin-top: 128px;
+}
+.block4 {
+    margin-left: 61px; 
+    margin-top: 128px;
+}
+.block5 {
+    margin-left: 150px;
+    margin-top: 134px;
+}
+.block6 {
+    margin-left: 61px;
+    margin-top: 134px; 
+}
+nav {
+    margin: 76px 0px 98px 0px;
+}
+.general list {
+    margin: auto;
+    padding-left: 0;
+    text-align: center;
+}
+header {
+    display: inline-block;
+    text-align: center;
+    }
+    .captiontopicture {
+        text-transform: uppercase;  
+        font-family: "Ubuntu", sans-serif;
+        font-size: 14px;
+        color: #b4ad9e;
+    }
+    h2 {
+        font-size: 30px;
+        margin-bottom: 36px;
+        font-family: "Playfair Display", serif; 
+    }
+    .textbelowthepicture, button {
+        font-family: "Playfair Display", serif;
+        color: #626262;
+    }
+    .textbelowthepicture {
+        font-size: 14px;
+    line-height: 24px;
+    }
+    button {
+        display: block;
+        border: 1px solid #626262;
+        font-size: 20px;
+        margin: auto;
+        margin-top: 61px;
+        margin-bottom: 70px;
+        padding: 20px 36px 24px 36px;
+    }
+

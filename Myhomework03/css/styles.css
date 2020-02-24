@@ -6,10 +6,20 @@ body {
      width: 1200px;
      margin: auto;
 }
+.container {
+    width: 903px;
+    margin: 0 auto;
+}
+article {
+    display: inline-block;
+    width: 421px;
+}
 .list {
     display: inline
 }
-.general list {
+.general_list {
+    margin: auto;
+    padding-left: 0;
     text-align: center
 }
 .heading1 {
@@ -17,8 +27,8 @@ body {
     text-transform: uppercase;
     font-family: 'PlayfairDisplay', serif;
     color: #03a9f4;
-    padding-left: 270px;
-}
+    padding-left: 0;
+    }
 .heading2 {
     font-size: 14px;
     text-transform: uppercase;
@@ -52,45 +62,42 @@ body {
     color:#03a9f4;
 
 }
-article {
-    display: inline-block;
-    width: 421px;
-}
+
 .block1 {
-    margin-left: 150px;
+    margin-left: 0;
 }
 .block2 {
-    margin-left: 61px;
+    margin-left:57px;
 }
 .block3 {
-    margin-left: 150px;
+    margin-left: 0px;
     margin-top: 128px;
 }
 .block4 {
-    margin-left: 61px; 
+    margin-left:57px; 
     margin-top: 128px;
 }
 .block5 {
-    margin-left: 150px;
+    margin-left: 0px;
     margin-top: 134px;
 }
 .block6 {
-    margin-left: 61px;
+    margin-left: 57px;
     margin-top: 134px; 
 }
 nav {
     margin: 76px 0px 98px 0px;
 }
-.general list {
+.general_list {
     margin: auto;
     padding-left: 0;
     text-align: center;
 }
 header {
-    display: inline-block;
+    display: block;
     text-align: center;
     }
-    .captiontopicture {
+    .caption {
         text-transform: uppercase;  
         font-family: "Ubuntu", sans-serif;
         font-size: 14px;
@@ -101,11 +108,11 @@ header {
         margin-bottom: 36px;
         font-family: "Playfair Display", serif; 
     }
-    .textbelowthepicture, button {
+    .paragraf, button {
         font-family: "Playfair Display", serif;
         color: #626262;
     }
-    .textbelowthepicture {
+    .paragraf {
         font-size: 14px;
     line-height: 24px;
     }

@@ -58,8 +58,38 @@ h2::after {
     content: "";  
     margin: 32px auto; 
 }
-
+h3::after {
+    display: block;
+    width: 137px;
+    height: 4px;
+    background-color:  #1abc9c;
+    content: "";  
+    margin: 14px 30px 0 0; 
+}
+h2 {
+    margin-bottom: 90px;
+    margin-top: 110px;
+}
+h3 {
+    margin: 0;
+}
+.news-list-about p {
+    padding-top: 30px;
+}
 .product-list {
+    list-style: none;
+}
+.product-list-img {
+    margin-bottom: 0;
+}
+.product-list-name p::after {
+    display: block;
+    width: 255px;
+    height: 40px;
+    background-color:#323232;
+    content: "";
+}
+.news-list {
     list-style: none;
 }
 .product-list-item p {
@@ -70,9 +100,7 @@ h2::after {
 }
 .product-list-item {
     float: left;
-    width: 255px;
-    height: 322px;
-    scroll-padding-inline-start:0;
+    width: 255px;    
 }
 .product-list-item:not(:nth-child(4n)) {
     margin-right: 30px;
@@ -80,10 +108,39 @@ h2::after {
 .product-list-item:not(:nth-child(n+5)) {
     margin-bottom: 30px;
 }
-
-.product-list {
-    margin-top: 92px;
-    margin-bottom: 105px;
+.product-list-price {
+    float: right;
+    width: 20%;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    background: #8c8c8c;
+    color: #ffffff;
+}
+.product-list-item p {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color:#ffffff;
+    box-sizing: border-box;
+    float: left;
+    margin:0;
+    width: 80%;
+    padding: 5px;
+    background: #323232;
+}
+.news-list-item {
+    float: left;
+    width: 350px;
+    height: 262px;
+}
+.news-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+.news-list {
+    margin-top:80px;
+    margin-bottom: 80px;
     padding-left: 0;
 }
 h2 {
@@ -93,6 +150,18 @@ h2 {
     text-transform: uppercase;
     text-align: center;
 }
+
+.news-list-subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.news-list-about {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
 .clearfix::after {
 display: table;
 content: "";
@@ -101,6 +170,21 @@ clear: both;
 .container{
     width: 1110px;
     margin: 0 auto;
+    padding: 0;
+}
+button {
+    display: block;
+    border: none;
+    background-color:#1abc9c;
+    border-radius: 3px;
+    width: 160px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height:50px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 80px;
 }
 
 

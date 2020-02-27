@@ -102,6 +102,7 @@ header {
         font-family: "Ubuntu", sans-serif;
         font-size: 14px;
         color: #b4ad9e;
+        margin: 0;
     }
     h2 {
         font-size: 30px;
@@ -111,6 +112,9 @@ header {
     .paragraf, button {
         font-family: "Playfair Display", serif;
         color: #626262;
+    }
+    .paragraf {
+        margin: 0;
     }
     .paragraf {
         font-size: 14px;

@@ -37,27 +37,33 @@
     text-decoration: none; 
 }
 .big-slide {
-    width: 100%; 
+    width: 1600px; 
+    height: 600px;
     position: relative; 
 }
 .left-button, .right-button {
     position: absolute;
 }
 .left-button {
-    top: 225px;
     left: 245px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 106px;
     height: 106px;
     background-color: #54a18f;
     border: none;
 }
 .right-button {
-    top: 225px;
     right: 245px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 106px;
     height: 106px;
     background-color: #1abc9c;
     border: none;
+}
+.product-list-item {
+    display: inline-block;
 }
 
 

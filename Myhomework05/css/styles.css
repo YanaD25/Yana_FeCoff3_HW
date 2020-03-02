@@ -1,0 +1,80 @@
+.site-header {
+    width: 1110px;
+    margin: auto;    
+}
+.site-navigation {
+    text-transform: uppercase;
+    list-style: none;  
+    display: inline-block; 
+    margin-top: 36px;   
+}
+.logo {
+    display: inline-block;
+    width: 78px;
+    height: 21px;
+    margin-right: 460px;
+    vertical-align: top;
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+.site-navigation li {
+    display: inline-block;
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 30px;
+}
+.site-navigation li:hover a {
+    color: #1abc9c;
+}
+.site-navigation a {
+    text-decoration: none;
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    line-height: 11px;
+    color:  #555252;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-decoration: none; 
+}
+.big-slide {
+    width: 100%; 
+    position: relative; 
+}
+.left-button, .right-button {
+    position: absolute;
+}
+.left-button {
+    top: 225px;
+    left: 245px;
+    width: 106px;
+    height: 106px;
+    background-color: #54a18f;
+    border: none;
+}
+.right-button {
+    top: 225px;
+    right: 245px;
+    width: 106px;
+    height: 106px;
+    background-color: #1abc9c;
+    border: none;
+}
+
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    line-height: 32px;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-align: center;
+    color: #515151;
+}
+h2::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: " ";
+    margin: 32px auto;
+}

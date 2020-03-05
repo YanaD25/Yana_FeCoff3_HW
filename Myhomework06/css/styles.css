@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+.page-header {
+    width: 1200px;
+    height: 170px;
+    margin: auto;
+}
+
+.site-navigation {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none; 
+    right: 0;
+    margin-top: 36px;
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 58px;
+}
+.site-navigation li:hover a {
+    color: #f38181;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #95e1d3;     
+}
+.site-header {
+    position: relative;
+}
+.logo, .site-navigation {
+    position: absolute;
+}
+.logo {
+    left: 0;
+    width: 86px;
+    height: 23px;
+    margin-top: 28px;
+}
+.item:after {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #f38181;
+    content: "";
+    margin: 10px auto;
+
+}
+.subtitle:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    content: "";
+    margin: 40px auto;
+}
+.container {
+    width: 1200px;  
+    margin: auto; 
+}
+.container2 {
+    width: 1200px;
+    margin: auto;
+}
+.title {
+    margin: 0 auto;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #333333;
+}
+.subtitle {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #333333;
+    text-transform: uppercase;
+}
+.title, .subtitle {
+    text-align: center;
+}
+.list-service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0;
+}
+.list-service li {
+    list-style: none;
+    margin-top: 0;
+}
+.team-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+.about-team {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #999999;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.about-service {
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+
+h4 {
+    margin-bottom: 18px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+.list-service li {
+    width: 330px;
+}
+.name {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.occupation {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+  

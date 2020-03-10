@@ -96,12 +96,42 @@ body {
     padding: 0;
     margin-top: 0;
 }
+
 .h4-1::before {
-    content: url(/img/icon-1.png);
+    content: url(../img/icon-1.png);
+    position: absolute;
+    right: 300px;
+}
+.h4-2::before {
+    content: url(../img/icon-2.png);
+    position: absolute;
+    right: 330px;
+}
+.h4-3::before {
+    content: url(../img/icon-3.png);
+    position: absolute;
+    right: 330px;
+}
+.h4-4::before {
+    content: url(../img/icon-4.png);
+    position: absolute;
+    right: 330px;
+}
+.h4-5::before {
+    content: url(../img/icon-5.png);
+    position: absolute;
+    right: 330px;
+}
+.h4-6::before {
+    content: url(../img/icon-6.png);
+    position: absolute;
+    right: 330px;
 }
 .list-service li {
     list-style: none;
     margin-top: 0;
+    width: 330px;
+    position: relative;
 }
 .team-list {
     display: flex;
@@ -138,9 +168,7 @@ h4 {
     text-transform: uppercase;
     color: #333333;
 }
-.list-service li {
-    width: 330px;
-}
+
 .name {
     font-family: Montserrat, sans-serif;
     font-size: 14px;

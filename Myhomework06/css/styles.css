@@ -60,11 +60,11 @@ body {
     margin: 40px auto;
 }
 .container {
-    width: 1200px;  
+    width: 1201px;  
     margin: auto; 
 }
 .container2 {
-    width: 1200px;
+    width: 1201px;
     margin: auto;
 }
 .title {
@@ -93,14 +93,15 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0;
     margin-top: 0;
+    padding-left: 40px;
+    
 }
 
 .h4-1::before {
     content: url(../img/icon-1.png);
     position: absolute;
-    right: 300px;
+    right: 330px;
 }
 .h4-2::before {
     content: url(../img/icon-2.png);
@@ -130,8 +131,9 @@ body {
 .list-service li {
     list-style: none;
     margin-top: 0;
-    width: 330px;
+    width: 300px;
     position: relative;
+    padding-left: 60px;
 }
 .team-list {
     display: flex;

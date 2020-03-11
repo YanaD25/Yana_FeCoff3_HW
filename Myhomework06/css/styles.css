@@ -249,16 +249,16 @@ h4 {
 .overlay {
     width: 380px;
     height: 470px;
-    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%); 
+    background-image: linear-gradient(rgb(243,129,129) 0%, rgb(252,227,138) 100%);  
     position: absolute;   
     opacity: 0; 
-    
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
 
 .team-item {
     position: relative;
+    cursor: pointer;
 }
 .team-item:hover .overlay {
     opacity: 0.9;
@@ -270,22 +270,43 @@ h4 {
     list-style: none;
    
 }
-
-
-
-.social-media:hover   {
+.social-media:hover  button {
     background-color:#95e1d3;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
-.team-item:hover .image-icons {
+
+.team-item:hover  { 
+    transition-duration: 200ms;
+    opacity: 0.9;
     transform: translate(-10px, -10px);
-   
+    
 }
+.team-item:hover .overlay {
+    transition-property: background-image, box-shadow, opacity;
+    opacity: 0.9;
+    box-shadow: 10px 10px #95e1d3;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+button {
+    font-size: 0;
+    width: 56px;
+    height: 56px;
+    border: none;
+    background-color: #fce38a;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+} 
+
 .image-icons {
     background-color:#95e1d3;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 .icon-box {
     display: flex;
     justify-content: center;
@@ -296,11 +317,8 @@ h4 {
     transform: translate(-50%, -50%);
     padding: 0;  
 }
-.fb, .twit, .pinter, .insta {
-    
- 
 
-}
+
 
 
 

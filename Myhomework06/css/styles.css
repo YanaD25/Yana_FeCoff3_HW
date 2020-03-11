@@ -301,7 +301,6 @@ button {
 } 
 
 .image-icons {
-    background-color:#95e1d3;
     top: 0;
     left: 0;
     width: 100%;
@@ -316,6 +315,9 @@ button {
     width: 100%;
     transform: translate(-50%, -50%);
     padding: 0;  
+}
+.social-media:not(:last-child) {
+    margin-right: 2px;
 }
 
 

@@ -1,0 +1,61 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .page-header {
+      width: 1110px;
+      margin: 0 auto;
+      padding: 0;
+      height: 65px;
+         
+  }
+  .logo {
+      float: left;
+      padding-top: 15px;
+  }
+  .site-navigation {
+      width: 470px;
+      margin: 0;
+      padding: 0;
+      list-style: none;  
+      float: right; 
+      padding:20px 0;    
+  }
+  .site-navigation li {
+      float: left;
+  }
+  .site-navigation li:hover a {
+    color: #1abc9c;
+}
+  .site-navigation li:not(:last-child) {
+      margin-right: 28px;
+  }
+  .site-navigation a {
+    font-family: "OpenSans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.786;
+    font-size: 14px; 
+    color: #0f0101;
+    text-decoration: none;
+
+    }
+   
+    .container {
+        position: relative;
+    }
+    .big-slider {
+        width: 100%;
+        min-height:600px;
+    }
+    .background {
+        width: 100%;
+        min-height:600px;
+        background-color: rgb(0, 0, 2);
+        opacity: 0.522;
+        position: absolute;
+        top: 0;
+        left: 0;
+      
+    }

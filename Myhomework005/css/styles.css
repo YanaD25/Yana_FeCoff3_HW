@@ -162,6 +162,7 @@ body {
     border: 1px solid #ffffff;
     background-color: transparent;
     margin-bottom: 7px;
+    padding: 0;
          
 }
 .like, .arrow {
@@ -182,6 +183,56 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
+}
+.icons-cart button {
+    float: left;
+}
 
+.new-collection {
+    width: 1110px;
+    margin: 0 auto;
+}
+.product-list {
+    margin: 0 auto;   
+    padding: 0;
+}  
+.product-list li {
+    float: left; 
+  
+}   
+.product-list li:not(:last-child) {
+    margin-right: 30px;
+}
+.price-name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.product-list-name {
+    float: left;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    width: 80%;
+    padding: 7px 0;
+    text-indent: 14px;
+    background: #323232;
+}
+.product-list-price {
+    float: right;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    width: 20%;
+    padding: 7px 0;
+    background: #8c8c8c;
 }

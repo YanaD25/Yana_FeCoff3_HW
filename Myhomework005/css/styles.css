@@ -49,6 +49,7 @@ body {
 }
 .container {
     background-image: url(../img/big-slide.jpg);
+    background-position: fixed;
     position: relative;
     width: 1600px;
     height: 600px;

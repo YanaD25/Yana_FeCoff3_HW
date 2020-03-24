@@ -3,12 +3,10 @@
     width: 1110px;
     margin: 0 auto;
     padding:  0;
-    margin-bottom:60px;
-    
 }
 .logo {
     float: left;
-    padding-top: 38px;
+    /* padding-top: 38px; */
 }
 
 .logo::first-letter {
@@ -18,9 +16,13 @@
 }
 .site-navigation {
     margin: 0;
-    padding:40px 0;
+    padding: 5px 0;
     float: right;
     list-style: none;
+}
+.navigation {
+    margin-top: 30px;
+    margin-bottom: 90px;
 }
 .site-navigation a {
     font-family: OpenSans, sans-serif;

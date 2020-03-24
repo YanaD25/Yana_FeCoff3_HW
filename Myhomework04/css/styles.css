@@ -1,25 +1,14 @@
-body{
-    font-family:"OpenSans Regular";
-    color: #555252;
-    font-size: 14px;
-    line-height: 26px;
-}
-.page-header {
+
+.site-header {
     width: 1110px;
     margin: 0 auto;
     padding:  0;
-    width: 1110px;
-    margin: 0 auto;
+    margin-bottom:60px;
+    
 }
 .logo {
-    font-size: 30px;
-    font-family: Roboto, sans-serif;
-    color: #555252;
-    text-transform: uppercase;
-    text-decoration: none;
     float: left;
-    height:100px;
-    padding-top: 20px;
+    padding-top: 38px;
 }
 
 .logo::first-letter {
@@ -29,7 +18,7 @@ body{
 }
 .site-navigation {
     margin: 0;
-    padding:30px 0;
+    padding:40px 0;
     float: right;
     list-style: none;
 }
@@ -57,7 +46,10 @@ h2::after {
     height: 7px;
     background-color:  #1abc9c;
     content: "";  
-    margin: 32px auto; 
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 h3::after {
     display: block;
@@ -66,19 +58,38 @@ h3::after {
     background-color:  #1abc9c;
     content: "";  
     margin: 14px 30px 0 0; 
+    position: absolute;
+    bottom:0;
+   
 }
 h2 {
+    margin: 0;
+    position: relative;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
     margin-bottom: 90px;
-    margin-top: 110px;
+    padding-bottom: 22px;
 }
+
 h3 {
     margin: 0;
+    position: relative;
+}
+.products {
+    padding-bottom: 92px;
 }
 .news-list-about p {
     padding-top: 30px;
 }
 .product-list {
     list-style: none;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
 }
 .product-list-img {
     margin-bottom: 0;
@@ -148,44 +159,37 @@ h3 {
 .news-list-item {
     float: left;
     width: 350px;
-    height: 262px;
 }
 .news-list-item:not(:last-child) {
     margin-right: 30px;
 }
 .news-list {
-    margin-top:80px;
-    margin-bottom: 80px;
+    margin: 0;
     padding-left: 0;
 }
-h2 {
-    font-size: 48px;
-    font-family: "Roboto";
-    color: #515151;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .news-list-subtitle {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 1.5;
     font-weight: 600;
+    padding-bottom: 12px;
 }
 .news-list-about {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 28px;
+    margin-top: 25px;
 }
 .clearfix::after {
-display: table;
-content: "";
-clear: both;
+    display: table;
+    content: "";
+    clear: both;
 }
 .container{
     width: 1110px;
     margin: 0 auto;
     padding: 0;
+    padding-bottom: 90px;
 }
 button {
     display: block;
@@ -198,8 +202,6 @@ button {
     line-height:50px;
     font-weight: 300;
     color: #ffffff;
-    margin-top: 16px;
-    margin-bottom: 80px;
 }
 
 

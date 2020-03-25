@@ -124,7 +124,7 @@ h2 {
     font-size: 16px;
     line-height: 1.2;
     color: #777777;
-    margin-bottom: 114px;
+    margin-bottom: 100px;
 }
 .contact-us {
     width: 1400px;
@@ -132,5 +132,57 @@ h2 {
     background-image: url(../img/bg-footer.jpg);
     margin: 0 auto;
 }
-
+.send-message {
+    height: 305px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input {
+    width: 450px;
+    height: 50px;
+    display: block;
+    margin-bottom: 28px;
+}
+.input, textarea {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    border-radius: 3px;
+    border: none;
+    padding-left: 20px;
+}
+textarea {
+    padding: 20px;
+    width: 450px;
+    height: 212px;
+    text-align: left;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+}
+.send_message {
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #fed136;
+}
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
 

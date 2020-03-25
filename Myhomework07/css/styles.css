@@ -36,6 +36,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    margin-bottom: 120px;
 }
 .services-list li {
     text-align: center;
@@ -61,16 +62,75 @@ h2 {
     color: #777777;
     margin-bottom: 80px;
 }
-.icons {
+.image {
     width: 67px;
     height: 67px;
-    border: 3px solid #fedf71;
+    border: 4px solid #fedf71;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-bottom: 24px;
+}
+.icons-1 {
+    width: 40px;
+    height: 39px;
+}
+.icons-2 {
+    width: 41px;
+    height: 35px;
+}
+
+.icons-3 {
+    width: 29px;
+    height: 38px;
+}
+
+.title {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.description {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #9b9b9b;
+    margin: 0;
+}
+.contacts {
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   font-size: 40px;
+   line-height: 1.6;
+   text-transform: uppercase;
+   margin: 0;
+   padding-top: 100px;
+   color: #ffffff;
+}
+.text-under-2 {
+    text-align: center;
+    margin: 0;
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #777777;
+    margin-bottom: 114px;
+}
+.contact-us {
+    width: 1400px;
+    height: 676px;
+    background-image: url(../img/bg-footer.jpg);
+    margin: 0 auto;
 }
 
 

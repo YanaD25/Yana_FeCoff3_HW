@@ -180,9 +180,9 @@ textarea {
     background-color: #fed136;
 }
 input:invalid:not(:placeholder-shown) {
-    border-color: red;
+    outline-color: red;
 }
 input:valid:not(:placeholder-shown) {
-    border-color: green;
+    outline-color: green;
 }
 

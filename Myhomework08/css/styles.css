@@ -1,0 +1,253 @@
+/* MOBILE VERSION */
+body {
+    margin: 0 auto;
+}
+header {
+    min-width: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 20px;
+    background-image: url(../img/Vector\ Smart\ Object.png);
+    position: relative;
+    margin-bottom: 78px;
+    min-height: 540px;
+}
+.container{
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.site-navigation li {
+    list-style: none;
+ 
+ }
+ .site-navigation  {
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 114px;
+ }
+.login {
+    margin-right: 26px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+.sign-up {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    width: 90px;
+    height: 36px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+}
+.title {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.subtitle {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 13px;
+}
+.paragraf {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 26px;
+    width: 218px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.find-partner {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 20px;
+}
+.partner {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.meeting {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 14px;
+
+}
+.pictures {
+    position: relative;
+    width: 121px;
+    height: 121px;
+    margin: 0 auto;
+}
+.portrait {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon-1 {
+    width: 17px;
+    height: 17px;   
+}
+.icon-2 {
+    width: 12px;
+    height: 16px;
+}
+.icon-3 {
+    width: 16px;
+    height: 16px;
+}
+.icon-4 {
+    width: 16px;
+    height: 15px;
+}
+.icon-block-1 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ff4e50;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+.icon-block-2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffa507;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+.icon-block-3 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #1cd7ad;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+.icon-block-4 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #4e73db;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+.name {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 22px;
+    margin-bottom: 20px;
+
+}
+.about-partner {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #282828;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.partner-list {
+    width: 220px;
+    margin: 0 auto;
+}
+.other-partners {
+    width: 280px;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #ff4e50;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 58px;
+}
+ /* TABLET VERSION */
+
+@media (min-width: 768px) {
+    header {
+        min-width: 768px;
+        min-height: 700px;
+        padding-top: 38px;
+        margin-bottom: 70px;
+    }
+    .container {
+        width: 768px;    
+    }
+    .site-navigation {
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+    .navigation {
+        display: flex;
+      
+    }
+
+}

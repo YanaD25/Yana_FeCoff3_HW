@@ -247,7 +247,81 @@ header {
     }
     .navigation {
         display: flex;
-      
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 145px;              
     }
+    .title {
+        margin: 0;
+        margin-left: 50px;
+    }
+    .subtitle {
+        width: 520px;
+        font-size: 52px;
+        margin: 0 auto;
+        margin-bottom: 30px;
 
+    }
+    .paragraf {
+        width: 400px;
+        font-size: 18px;
+        margin-bottom: 36px;
+    }
+    .find-partner {
+        width: 226px;
+    }
+    .partner {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 490px;
+        margin: 0 auto;
+        margin-bottom: 37px;
+    }
+    .partner-list:first-child {
+        order: 1;
+    }
+    .partner-list:nth-child(2) {
+        order: 3;
+    }
+    .partner-list:nth-child(3) {
+        order: 2;
+    }
+    .partner-list:nth-child(4) {
+        order: 4;
+    }
 }
+/* VERSION FOR DESKTOP */
+@media (min-width: 940px) {
+    header {
+        min-width: 940px;      
+    }
+    .container {
+        width: 940px;
+    }
+    .meeting {
+        margin-bottom: 30px;
+    }
+    .partner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 37px;
+    }
+    .partner-list {
+        width: 220px;
+    }
+    .about-partner {
+        width: 220px;
+        margin: 0 auto;
+    }
+    .other-partners {
+        font-weight: 700;
+        margin-bottom: 73px;
+    }
+}
+
+  

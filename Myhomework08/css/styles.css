@@ -6,7 +6,7 @@ header {
     min-width: 320px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     padding-top: 20px;
     background-image: url(../img/Vector\ Smart\ Object.png);
     position: relative;
@@ -237,6 +237,7 @@ header {
         min-height: 700px;
         padding-top: 38px;
         margin-bottom: 70px;
+        background-image: url(../img/Vector\ Smart\ Object-Tablet.png);
     }
     .container {
         width: 768px;    
@@ -295,7 +296,8 @@ header {
 /* VERSION FOR DESKTOP */
 @media (min-width: 940px) {
     header {
-        min-width: 940px;      
+        min-width: 940px; 
+        background-image: url(../img/Vector\ Smart\ Object-desktop.png);     
     }
     .container {
         width: 940px;

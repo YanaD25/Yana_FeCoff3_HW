@@ -1,0 +1,41 @@
+/* MOBILE VERSION */
+body {
+    margin: 0 auto;
+}
+.smart-object {
+    text-align: center;
+    margin: auto;
+}
+.masthead {
+    min-width: 320px;
+    min-height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    background-image: url(../img/Vector\ Smart\ Object.png);
+    position: relative;
+    margin-bottom: 78px;
+    min-height: 540px;
+}
+.login {
+    margin-right: 26px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+.signup {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    width: 90px;
+    height: 36px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+}

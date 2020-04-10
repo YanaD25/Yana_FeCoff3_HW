@@ -112,7 +112,7 @@ h2 {
    line-height: 1.6;
    text-transform: uppercase;
    margin: 0;
-   padding-top: 100px;
+   margin-top: 100px;
    color: #ffffff;
 }
 .text-under-2 {
@@ -127,9 +127,9 @@ h2 {
     margin-bottom: 100px;
 }
 .contact-us {
-    width: 1400px;
-    height: 676px;
+    display: flex;
     background-image: url(../img/bg-footer.jpg);
+    background-size: cover;
     margin: 0 auto;
 }
 .send-message {
@@ -137,6 +137,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.inputs-3 {
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
 }
 .input {
     width: 450px;
@@ -166,6 +171,7 @@ textarea {
 }
 .send_message {
     margin: 0 auto;
+    margin-bottom: 115px;
     width: 240px;
     height: 65px;
     font-family: Montserrat, sans-serif;
@@ -178,6 +184,7 @@ textarea {
     border-radius: 5px;
     border: none;
     background-color: #fed136;
+    cursor: pointer;
 }
 input:invalid:not(:placeholder-shown) {
     outline-color: red;

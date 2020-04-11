@@ -132,12 +132,6 @@ h2 {
     background-size: cover;
     margin: 0 auto;
 }
-.send-message {
-    height: 305px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .inputs-3 {
     display: flex;
     width: 450px;
@@ -169,9 +163,15 @@ textarea {
     border: none;
     box-sizing: border-box;
 }
+.send-message {
+    height: 305px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
 .send_message {
     margin: 0 auto;
-    margin-bottom: 115px;
     width: 240px;
     height: 65px;
     font-family: Montserrat, sans-serif;

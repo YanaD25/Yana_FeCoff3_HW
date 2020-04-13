@@ -138,9 +138,11 @@ h2 {
     justify-content: space-between;
 }
 .input {
-    width: 450px;
+    width: 455px;
     height: 50px;
     display: block;
+    padding-left: 20px;
+    box-sizing: border-box;
 }
 .input, textarea {
     font-family: Montserrat, sans-serif;
@@ -151,15 +153,14 @@ h2 {
     text-align: left;
     border-radius: 3px;
     border: none;
-    padding-left: 20px;
 }
 textarea {
-    padding: 20px;
-    width: 450px;
+    width: 455px;
     height: 212px;
     text-align: left;
     border-radius: 3px;
     border: none;
+    padding: 20px;
     box-sizing: border-box;
 }
 .form {

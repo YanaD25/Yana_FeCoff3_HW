@@ -158,36 +158,6 @@
     top: 15px;
 }
 
-/* .h4-1::before {
-    content: url(../img/svg/ALARM.svg);
-    position: absolute;
-    right: 330px;
-}
-.h4-2::before {
-    content: url(../img/svg/LINE\ GRAPH.svg);
-    position: absolute;
-    right: 330px;
-}
-.h4-3::before {
-    content: url(../img/svg/COMPUTER\ _\ OK.svg);
-    position: absolute;
-    left: 0;
-}
-.h4-4::before {
-    content: url(../img/svg/BOOK\ 2.svg);
-    position: absolute;
-    right: 330px;
-}
-.h4-5::before {
-    content: url(../img/svg/HOME.svg);
-    position: absolute;
-    right: 330px;
-}
-.h4-6::before {
-    content: url(../img/svg/IMAGE.svg);
-    position: absolute;
-    right: 330px;
-} */
 .list-service li {
     list-style: none;
     margin-top: 0;

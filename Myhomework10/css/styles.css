@@ -46,6 +46,9 @@
     cursor: pointer;
     fill: #ffffff;
 }
+.site-navigation__icon:hover {
+    fill: #fce38a;
+}
 .head {
     text-align: center;
     position: relative;
@@ -372,6 +375,11 @@ button {
 }
 .social-media:not(:last-child) {
     margin-right: 2px;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .page-header{
+        background-image: url(../img/picture@2x.png);
+    } 
 }
 
 

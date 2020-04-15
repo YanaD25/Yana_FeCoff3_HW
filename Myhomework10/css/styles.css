@@ -149,10 +149,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 0;   
+    margin-top: 0; 
 }
 .list-services__svg {
     fill: #95e1d3;
+    position: absolute;
+    left: 0px;
+    top: 15px;
 }
 
 /* .h4-1::before {

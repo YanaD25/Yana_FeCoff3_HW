@@ -10,17 +10,16 @@ header {
     padding-top: 20px;
     background-image: url(../img/Vector\ Smart\ Object.png);
     position: relative;
-    margin-bottom: 78px;
-    min-height: 540px;
 }
 .container{
     width: 320px;
     margin: 0 auto;
+}
+.smart-object {
     text-align: center;
 }
 .site-navigation li {
     list-style: none;
- 
  }
  .site-navigation  {
      padding: 0;
@@ -93,6 +92,7 @@ header {
     background-color: #ff4e50;
     border: none;
     border-radius: 20px;
+    margin-bottom: 138px;
 }
 .partner {
     list-style: none;
@@ -106,6 +106,7 @@ header {
     line-height: 1.6;
     font-weight: 700;
     color: #333333;
+    margin-top: 78px;
     margin-bottom: 14px;
 
 }
@@ -234,9 +235,7 @@ header {
 @media (min-width: 768px) {
     header {
         min-width: 768px;
-        min-height: 700px;
         padding-top: 38px;
-        margin-bottom: 70px;
         background-image: url(../img/Vector\ Smart\ Object-Tablet.png);
     }
     .container {
@@ -271,6 +270,7 @@ header {
     }
     .find-partner {
         width: 226px;
+        margin-bottom: 234px;
     }
     .partner {
         display: flex;

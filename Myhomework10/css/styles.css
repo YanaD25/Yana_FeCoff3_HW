@@ -303,7 +303,7 @@ h4 {
     height: 56px;
     background-color: #fce38a;
     list-style: none;
-   
+    fill: rgb(243, 129, 129);   
 }
 .social-media:hover  button {
     background-color:rgb(243, 129, 129);

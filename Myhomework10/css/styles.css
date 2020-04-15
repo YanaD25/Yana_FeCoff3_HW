@@ -152,7 +152,7 @@
     margin-top: 0;   
 }
 
-.h4-1::before {
+/* .h4-1::before {
     content: url(../img/svg/ALARM.svg);
     position: absolute;
     right: 330px;
@@ -181,7 +181,7 @@
     content: url(../img/svg/IMAGE.svg);
     position: absolute;
     right: 330px;
-}
+} */
 .list-service li {
     list-style: none;
     margin-top: 0;

@@ -47,6 +47,7 @@
     fill: #ffffff;
 }
 .head {
+    text-align: center;
     position: relative;
 }
 .page-header {

@@ -1,0 +1,42 @@
+.icon-list__item {
+    width: 56px;
+    height: 56px;
+    background-color: $orange-color;
+    list-style: none;
+    fill: $pink-color;   
+}
+.icon-list__item:hover  button {
+    background-color:$pink-color;
+    fill:$primary-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+.image-icons {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0;  
+}
+.icon-list__item:not(:last-child) {
+    margin-right: 2px;
+}
+button {
+    font-size: 0;
+    width: 56px;
+    height: 56px;
+    border: none;
+    background-color: $orange-color;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+} 

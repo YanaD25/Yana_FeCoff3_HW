@@ -1,0 +1,39 @@
+.list-services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0; 
+}
+.list-services__svg {
+    fill: $light-green;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+
+.list-services__item {
+    list-style: none;
+    margin-top: 0;
+    width: 310px;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 100px;
+
+}
+.list-services__about {
+    margin: 0;
+    font-family: $paragraf-font;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color:$grey;
+}
+.list-services__title {
+    margin-bottom: 18px;
+    font-family: $section-subtitle-font;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:$secondary-color;
+}

@@ -1,0 +1,43 @@
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list__name {
+    font-family: $paragraf-font;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $grey;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team-list__occupation {
+    font-family: $section-subtitle-font;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: $grey;
+    text-align: center;
+}
+.team-list__item {
+    position: relative;
+    cursor: pointer;
+}
+.team-list__item:hover .overlay {
+    opacity: 0.9;
+}
+.team-list__item:hover  { 
+    transition-duration: 200ms;
+    opacity: 0.9;
+    transform: translate(-10px, -10px);   
+}
+
+.team-list__item:hover .overlay {
+    transition-property: background-image, box-shadow, opacity;
+    opacity: 0.9;
+    box-shadow: 10px 10px $light-green;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}

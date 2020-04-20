@@ -1,0 +1,33 @@
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 160px;
+ }
+ .site-navigation {
+     display: flex;
+     align-items: center;
+ }
+ .site-navigation__item:not(:last-child) {
+     margin-right: 55px;
+ }
+ .site-navigation__link {
+     font-family: $section-subtitle-font;
+     font-size: 14px;
+     line-height: 1.2;
+     font-weight: 400;
+     text-transform: uppercase;
+     color: #ffffff;
+     transition-property: border-bottom, color;
+     transition-duration: 200ms
+     transition-timing-function: linear;
+ }
+ .site-navigation__icon {
+    background-color: transparent;
+    cursor: pointer;
+    fill:$primary-color;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}

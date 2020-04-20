@@ -1,6 +1,18 @@
 /*
  * Все паршалы импортировать в этот файл
  */
+@import 'helpers/variables.scss';
+@import 'helpers/mixin.scss';
+@import 'helpers/placeholders.scss';
+
 
 @import 'normalize.scss';
 @import 'base.scss';
+
+// COMPONENTS
+@import 'components/container.scss';
+@import 'components/link.scss';
+@import 'components/list.scss';
+@import 'components/page-nav.scss';
+@import 'components/page-header.scss';
+@import 'components/button-header.scss';

@@ -1,13 +1,12 @@
 .page-nav {
-    display: flex;
-    justify-content: space-between;
+    @extend %flexbox;
     align-items: center;
     padding-top: 30px;
     margin-bottom: 160px;
  }
  .site-navigation {
      display: flex;
-     align-items: center;
+     @extend %align-items-center;
  }
  .site-navigation__item:not(:last-child) {
      margin-right: 55px;
@@ -22,20 +21,23 @@
      transition-property: border-bottom, color;
      transition-duration: 200ms;
      transition-timing-function: linear;
- }
+     
+
+     &:hover {
+        color: #fce38a;
+        border-bottom: 3px solid #fce38a;
+        padding-bottom: 10px;
+     }
+}
  .site-navigation__icon {
     background-color: transparent;
-    cursor: pointer;
+    @extend %cursor-pointer;
     fill:$primary-color;
     transition-property: all;
     transition-duration: 200ms;
     transition-timing-function: linear;
-}
-.site-navigation__link:hover {
-    color: #fce38a;
-    border-bottom: 3px solid #fce38a;
-    padding-bottom: 10px;
-}
-.site-navigation__icon:hover {
-    fill: #fce38a;
+
+    &:hover {
+        fill: #fce38a;
+    }
 }

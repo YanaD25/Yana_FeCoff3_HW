@@ -20,7 +20,7 @@
     line-height: 1.6;
     font-weight: 400;
     color:$primary-color;
-    text-align: center;
+    @extend %text-align-center;
     margin: 0;
     margin-bottom: 50px;
 }
@@ -31,7 +31,7 @@
     font-weight: 700;
     color: $primary-color;
     text-transform: uppercase;
-    text-align: center;
+    @extend %text-align-center;
     width: 835px;
     margin: 0 auto;
     margin-bottom: 125px;

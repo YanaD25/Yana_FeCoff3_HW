@@ -3,7 +3,7 @@
     font-size: 15px;
     line-height: 24px;
     font-weight: 400;
-    text-align: center;
+    @extend %text-align-center;
     color: $grey;
     margin-top: 0;
     margin-bottom: 90px;

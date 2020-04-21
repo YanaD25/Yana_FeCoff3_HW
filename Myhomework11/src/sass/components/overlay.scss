@@ -4,6 +4,5 @@
     background-image: linear-gradient(rgb(243,129,129) 0%, rgb(252,227,138) 100%);  
     position: absolute;   
     opacity: 0; 
-    transition-duration: 200ms;
-    transition-timing-function: linear;
+    @include transition($duration: 200ms, $ease: linear);
 }

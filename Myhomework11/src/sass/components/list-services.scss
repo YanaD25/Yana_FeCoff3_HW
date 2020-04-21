@@ -1,6 +1,5 @@
 .list-services {
-    display: flex;
-    justify-content: space-between;
+    @extend %flexbox;
     flex-wrap: wrap;
     margin-top: 0; 
 }

@@ -4,12 +4,12 @@
     background-color: $orange-color;
     list-style: none;
     fill: $pink-color;   
-}
-.icon-list__item:hover  button {
+
+    &:hover  button{
     background-color:$pink-color;
     fill:$primary-color;
-    transition-duration: 200ms;
-    transition-timing-function: linear;
+    @include transition($duration: 200ms, $ease: linear);
+    }
 }
 .image-icons {
     top: 0;
@@ -36,7 +36,6 @@ button {
     height: 56px;
     border: none;
     background-color: $orange-color;
-    cursor: pointer;
-    transition-duration: 200ms;
-    transition-timing-function: linear;
-} 
+    @extend %cursor-pointer;
+    @include transition($duration: 200ms, $ease: linear);
+}

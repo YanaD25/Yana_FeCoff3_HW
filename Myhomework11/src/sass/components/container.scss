@@ -3,6 +3,6 @@
     margin: 0 auto;
 }
 .head {
-    text-align: center;
+    @extend %text-align-center;
     position: relative;
 }

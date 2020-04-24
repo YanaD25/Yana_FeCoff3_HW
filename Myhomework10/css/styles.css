@@ -243,7 +243,7 @@
     color: #333333;
 }
 
-.team-list__name {
+.section-team__team-list--name {
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     line-height: 1.2;
@@ -252,7 +252,7 @@
     text-transform: uppercase;
     text-align: center;
 }
-.team-list__occupation {
+.section-team__team-list--occupation {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     line-height: 24px;

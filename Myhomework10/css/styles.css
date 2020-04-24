@@ -348,7 +348,7 @@
     position: relative;
     cursor: pointer;
 }
-.team-item:hover .overlay {
+.section-team__team-list--item:hover .overlay {
     opacity: 0.9;
 }
 .icon-list__item {

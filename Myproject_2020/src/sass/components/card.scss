@@ -1,0 +1,95 @@
+.card-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 800;
+    color: #18191d;
+    margin: 0;
+    margin-bottom: 32px;
+    width: 290px;
+    letter-spacing: 0.8px;
+}
+.text1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 20.33px;
+    font-weight: 500;
+    color: #b9b9b9;
+    margin: 0;
+    margin-bottom: 2px;
+    letter-spacing: 0.8px;
+
+}
+.text2 {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 20.33px;
+    font-weight: 700;
+    color: #18191d;
+    letter-spacing: 0.8px;
+    margin-bottom: 40px;
+}
+.text2-color {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 20.33px;
+    font-weight: 700;
+    color: #ff6b08;
+}
+.card-btn {
+    width: 250px;
+    height: 48px;
+    border: none;
+    background-color: #ff6b08;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.card-btn-wrapper {
+    width: 286px;
+    text-align: center;
+
+}
+.img-wrapper {
+    text-align: center;
+}
+.option-list {
+    list-style: none;
+}
+.option-list--item {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #18191d;
+    position: relative;
+}
+.option-list--item::before {
+    display: block;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.option-list--item:first-child::before {
+    background-image: url(../../images/sprite/symbol-defs.svg#icon-noun_Female-Student_2575636);
+    fill: #ff6b08;
+  
+
+
+
+}
+  

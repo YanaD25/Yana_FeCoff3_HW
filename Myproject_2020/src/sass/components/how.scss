@@ -1,0 +1,142 @@
+.how__title {
+    margin: 0;
+    padding: 40px 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 800;
+    color: #18191d;
+    text-align: center;
+}
+.how__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.how__list-item {
+    box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+    width: 290px;
+    height: 267px;
+    text-align: center;
+}
+.how__list-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.how__list-svg {
+    margin-top: 30px;
+    fill: #ff6b08;
+}
+.how__list-title {
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #111517;
+    width: 190px;
+}
+.how__list-title::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #ff6b08;
+    margin: 15px auto;
+}
+
+.how__list-descr {
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #858585;
+    width: 247px;
+}
+.how__list-item:hover {
+    background-color: #ff6b08;
+}
+.how__list-item:hover .how__list-svg {
+    fill: #ffffff;
+}
+.how__list-item:hover .how__list-title {
+    color: #ffffff;
+}
+.how__list-item:hover .how__list-descr {
+    color: #ffffff;
+}
+.how__list-item:hover .how__list-title::after {
+    background-color: #ffffff;
+}
+
+@media (min-width:768px) {
+    .how__title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .how__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+@media (min-width:1280px) {
+    .how__title {
+        font-size: 42px;
+        line-height: 62.54px;
+        text-align: left;
+    }
+    .how__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 1215px;
+        margin: 0 auto;
+    }
+    .how__list-item {
+        width: 387px;
+        height: 343px;
+    }
+    .how__list-title {
+        font-size: 18px;
+        line-height: 29.17px;
+        width: 255px;
+    }
+    .how__list-descr {
+        font-size: 15px;
+        line-height: 31.25px;
+        width: 280px;
+    }
+}
+@media (min-width:1680px) {
+    .how__title {
+        padding-top: 133px;
+        padding-bottom: 50px;
+        font-size: 46px;
+        line-height: 1.4;
+        text-align: left;
+    }
+    .how__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 1340px;
+        margin: 0 auto;
+    }
+    .how__list-item {
+        width: 427px;
+        height: 397px;
+    }
+    .how__list-title {
+        font-size: 20px;
+        line-height: 29.17px;
+        width: 285px;
+    }
+    .how__list-descr {
+        font-size: 18px;
+        line-height: 31.25px;
+        width: 280px;
+    }
+}

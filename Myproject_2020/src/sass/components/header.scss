@@ -10,6 +10,7 @@
     padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo-picture {
     display: block;
@@ -19,7 +20,7 @@
     padding: 0;
     width: 24px;
     height: 24px;
-    background-color: #ffffff;
+    background-color: $white-color;
     border: none;
 }
 @media (max-width: 767px) {
@@ -55,9 +56,9 @@
         .menu-btn-top {
             width: 250px;
             height: 48px;
-            border: 2px solid #ff6b08;
+            border: 2px solid $orange-color;
             font-family: Montserrat, sans-serif;
-            color: #ff6b08;
+            color: $orange-color;
             font-weight: 600;
             font-size: 11px;
             line-height: 1.5px;
@@ -81,12 +82,14 @@
         .menu-fall {
             display: flex;
             justify-content: space-between;
+            width: 570px;
         }
         .menu-btn-wrapper{
             width: 300px;
         }
         .menu-btn-top{
             width: 300px;
+            height: 70px;
             font-size: 12px;
         }
         .menu-btn-bg {
@@ -94,34 +97,48 @@
         }
         .menu-fall__list {
             list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 570px;
+            align-items: center;
         }
-        .menu-fall__list--link{
+        .menu-fall__link{
             text-decoration: none;
             font-family: "Montserrat", sans-serif;
             font-size: 12px;
             line-height: 1.2;
             font-weight: bold;
             text-transform: uppercase;
-            color: #bebebe;
+            color: $gray-color-menu;
         }
-        .menu-fall__list--link:hover {
-            color: #ff8446;
+        .menu-fall__link:hover {
+            color: $orange-color;
         }
     }
     @media (min-width: 1680px) {
         .container {
-            width: 1341px;
+            width: 1350px;
         }
-        .menu-fall__list--link {
+        .menu-fall {
+            width: 630px;
+        }
+        .menu-fall__list {
+            width: 630px;
+        }
+        .menu-fall__link {
             font-size: 14px;
 
         }
         .menu-btn-top {
             font-size: 14px;
             width: 350px;
+            height: 70px;
         }
         .menu-btn-wrapper{
             width: 350px;
+        }
+        .menu {
+            width: 1030px;
         }
 
     }

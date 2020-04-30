@@ -1,0 +1,162 @@
+.program {
+    background-color: #111517;
+    padding-top: 48px;
+    padding-bottom: 435px;
+    position: relative;
+}
+.program__title {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.9px;
+    margin: 0;
+}
+.program__list-item {
+    padding-top: 25px;
+    width: 190px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.program__list-item:not(:last-child)::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #546264;
+    position: absolute;
+    top: 44px;
+    left: 4px;
+}
+.program__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.program__list-semester {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 29.17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.9px;
+    margin: 0;
+}
+.program__list-semester::before {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #ff6b08;
+    border-radius: 50%; 
+    margin-right: 30px;
+}
+.program__list-title  {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 2.24;
+    font-weight: 700;
+    color: #ff6b08;
+    text-align: left;
+    letter-spacing: 0.9px;
+    padding: 16px 0;
+    margin: 0;
+}
+.program__list-title::before {
+    display: inline-block;
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-color: #ff6b08;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}
+.program__list-scroll {
+    padding-left: 40px;
+}
+.program_list-descr {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4b4d4e;
+    text-align: left;
+    margin: 0;
+    letter-spacing: 0.9px;
+}
+.program__img {
+    position: absolute;
+    right: 0;
+    bottom: 300px;
+}
+@media (min-width: 768px) {
+    .program {
+        padding-top: 50px;
+        padding-bottom: 360px;
+    }
+    .program__title {
+        font-size: 26px;
+        line-height: 62.54px;
+        text-align: left;
+    }  
+    .program__img {
+        bottom: 250px;
+    }
+    .program__list-scroll {
+        display: flex;
+        justify-content: left;
+    } 
+    .program__list-parts {
+        width: 170px;
+    }
+    .program__list-parts:not(:last-child) {
+        margin-right: 20px;
+    }
+    .program__list-item {
+        text-align: left;
+        margin: 0; 
+        width: 600px; 
+    } 
+    .program__list {
+        margin-left: 90px;
+    }
+}
+@media (min-width: 1280px) {
+    .program {
+        padding-top: 70px;
+        padding-bottom: 510px;
+    }
+    .program__title {
+        font-size: 42px;
+        line-height: 62.54px;
+        text-align: left;
+    }  
+    .program__list {
+        display: flex;
+        justify-content: space-between;
+        width: 1210px;
+    }
+    .program__list-item {
+        width: 230px;
+    }
+    .program__list-semester {
+        font-size: 19px;
+        line-height: 29.17px;
+    }
+    .program__list-title {
+        font-size: 18px;
+        line-height: 1.62;
+    }
+    .program_list-descr {
+        font-size: 20px;
+        line-height: 1.5;
+    } 
+}
+   
+    
+   

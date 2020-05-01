@@ -1,0 +1,19 @@
+.program_plus_why {
+    position: relative;
+    margin-bottom: 220px;
+}
+@media (min-width:768px){
+    .program_plus_why {
+        margin-bottom: 180px;
+    }
+}
+@media (min-width:1280px){
+    .program_plus_why {
+        margin-bottom: 0;
+    }
+}
+@media (min-width:1680px){
+    .program_plus_why {
+        margin-bottom: 180px;
+    }
+}

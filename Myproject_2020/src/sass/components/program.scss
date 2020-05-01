@@ -28,7 +28,7 @@
     height: 100%;
     background-color: #546264;
     position: absolute;
-    top: 44px;
+    top: 45px;
     left: 4px;
 }
 .program__list {
@@ -130,23 +130,43 @@
     .program {
         padding-top: 70px;
         padding-bottom: 510px;
+        position: relative;
     }
+    .program::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #546264;
+        position: absolute;
+        top: 165px;
+    } 
     .program__title {
         font-size: 42px;
         line-height: 62.54px;
         text-align: left;
-    }  
+    } 
     .program__list {
         display: flex;
         justify-content: space-between;
         width: 1210px;
+        margin: 0;
     }
     .program__list-item {
-        width: 230px;
+        width: 200px;
+    }
+    .program__list-item:not(:last-child)::before {
+        display: none;
     }
     .program__list-semester {
         font-size: 19px;
         line-height: 29.17px;
+    }
+    .program__list-semester::before {
+        display: block;
+        margin-bottom: 25px;
+        width: 17px;
+        height: 17px;
     }
     .program__list-title {
         font-size: 18px;
@@ -156,6 +176,56 @@
         font-size: 20px;
         line-height: 1.5;
     } 
+    .program__list-scroll {
+       display: block; 
+       padding: 0;
+    }
+    .program__list-parts {
+        width: 200px;
+    }
+    .program__img {
+        left: 0;
+        bottom: 300px;
+    }
+}
+@media (min-width: 1680px) {
+    .program {
+        padding-top: 120px;
+        padding-bottom: 390px;
+        position: relative;
+    }
+    .program::before {
+        height: 4px;
+        position: absolute;
+        top: 265px;
+    }
+    .program__title {
+        font-size: 46px;
+        line-height: 62.54px;
+        text-align: left;
+    }
+    .program__list {
+        width: 1350px;
+    }
+
+    .program__list-semester {
+        font-size: 29px;
+        line-height: 1;
+    }     
+    .program__list-semester::before {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 45px;
+        width: 20px;
+        height: 20px;
+    }
+    .program__list-title {
+        font-size: 21px;
+        line-height: 1.4;
+    } 
+    .program__img {
+        bottom: 120px;
+    }    
 }
    
     

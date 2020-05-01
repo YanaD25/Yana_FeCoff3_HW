@@ -1,0 +1,176 @@
+.teacher__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111517;
+    padding: 48px 0 26px 0;
+    margin: 0;
+}
+.teacher__title-name {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 29.17px;
+    color: #111517;
+    margin: 0;
+    padding-top: 25px;  
+} 
+.teacher__title-name::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #d1d1d1;
+    margin-top: 6px;
+}
+.teacher__progress-list {
+    padding: 0;
+    list-style: none;
+    margin: 20px 0 20px 0;
+}
+.teacher__progress-list::after {
+    display: block;
+    content: "";
+    width: 25px;
+    height: 2px;
+    background-color: #e16b1d;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.teacher__progress-list--item {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+.teacher__progress-list--item:not(:last-child) {
+    padding-bottom: 15px;
+}
+.teacher__progress-list--item::before {
+    display: block;
+    content: url(../../images/icon-check.png);
+    width: 16px;
+    height: 12px;
+    margin-right: 20px;
+}
+
+.teacher__progress-list--text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.8;
+    color:#111517;
+    width: 250px;
+    margin: 0;
+}
+.teacher__biogr {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #858585;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.teacher__link {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color:#e16b1d;
+}
+@media (min-width:768px) {
+    .teacher__title {
+        font-size: 26px;
+        line-height: 1.6;
+        padding: 50px 0 30px 0;
+    }
+    .teacher__card {
+        display: flex;
+        justify-content: start;
+    }
+    .teacher__title-name {
+        font-size: 20px;
+        line-height: 1.5;
+        padding-top: 0;  
+    } 
+    .teacher__about {
+        margin-left: 40px;
+    } 
+    .teacher__progress-list--item {
+        width: 370px;
+    }  
+    .teacher__biography {
+        width: 370px;
+    }
+    .teacher__progress-list--text {
+        width: 330px;
+    }
+    .teacher__progress-list::after {
+        margin-left: 0;
+    }
+}
+@media (min-width:1280px) {
+    .teacher__title {
+        font-size: 42px;
+        line-height: 1.6;
+        padding: 100px 0 60px 0;
+    }
+    .teacher__title-name {
+        font-size: 30px;
+        line-height: 1.5;
+    } 
+    .teacher__about {
+        margin-left: 40px;
+    } 
+    .teacher__progress-list--item {
+        width: 500px;
+    }  
+    .teacher__card {
+        display: flex;
+        justify-content: start;
+    }
+    .teacher__biogr {
+        font-size: 17px;
+        line-height: 1.8;
+        width: 620px;
+    }   
+    .teacher__progress-list--text {
+        font-size: 17px;
+        line-height: 1.8;
+        width: 500px;
+    }
+    .teacher__progress-list::after {
+        margin-left: 0;
+    }
+}
+@media (min-width:1680px) {
+    .teacher__title {
+        font-size: 46px;
+        line-height: 1.6;
+        padding: 110px 0 65px 0;
+    }
+    .teacher__about {
+        margin-left: 80px;
+    } 
+    .teacher__progress-list--item {
+        width: 500px;
+    }  
+    .teacher__card {
+        display: flex;
+        justify-content: start;
+    }
+    .teacher__biogr {
+        font-size: 17px;
+        line-height: 1.8;
+        width: 620px;
+    }       
+    .teacher__progress-list--text {
+        font-size: 17px;
+        line-height: 1.8;
+        width: 500px;
+    }         
+    .teacher__progress-list::after {
+        margin-left: 0;
+    }
+}

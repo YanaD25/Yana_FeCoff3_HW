@@ -103,18 +103,16 @@
     top: 0;
     width: 58px;
     height: 58px;
-    border: 2px solid $orange-color;
-    z-index: 1;
+    border: 2px solid $orange-color;  
 }
 .block {
-    width: 2px;
+    width: 4px;
     height: 36px;
-    color: $white-color;
+    background-color: $white-color;
     position: absolute;
     top: 50%;
-    right: -2px;
-    transform: translateY(-50%);
-    z-index: 100;
+    right: -3px;
+    transform: translateY(-50%);    
 }
 @media (min-width: 768px) {
     .card {

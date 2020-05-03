@@ -47,7 +47,10 @@
 }
 .teacher__progress-list--item::before {
     display: block;
-    content: url(../../images/icon-check.png);
+    content: "";
+    background-image: url(../../images/icon-check.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
     width: 16px;
     height: 12px;
     margin-right: 20px;

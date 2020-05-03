@@ -105,14 +105,16 @@
     height: 58px;
     border: 2px solid $orange-color;  
 }
-.block {
+.svg-wrapper::after {
+    position: absolute;
+    display: block;
+    content: "";
     width: 4px;
     height: 36px;
-    background-color: $white-color;
-    position: absolute;
+    background-color: #fff;
     top: 50%;
     right: -3px;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
 }
 @media (min-width: 768px) {
     .card {
@@ -175,7 +177,7 @@
     width: 380px;
     padding-left: 84px;
 }
-.block {
+.svg-wrapper::after {
     height: 73px;
 }
 .svg-wrapper {

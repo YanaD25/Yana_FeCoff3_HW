@@ -7,4 +7,94 @@
     padding-top: 50px;
     padding-bottom: 30px;
     text-align: center;
+    background-color: #fff;
+}
+.guarantee__list {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0;
+}
+.guarantee__list-item {
+    display: flex;
+}
+.guarantee__list-item--text {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #18191d;
+    margin: 0;
+}
+.guarantee__list-item:not(:last-child) .guarantee__list-item--text {
+    padding-bottom: 16px;
+}
+.list-item-color {
+    color: #ff6b08;
+}
+.guarantee__list--svg {
+    fill: #ff6b08;
+}
+.guarantee__list-item--wrapper {
+    display: flex;   
+    flex-basis: 28px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 22px;
+}
+.guarantee__list--line {
+    display: block;
+    height: 100%;
+    width: 1px;
+    border-right: 1px dotted #bcbcbc;
+}
+@media (max-width:767px) {
+    .guarantee {
+        background-color: #f1f1f1;
+    } 
+}
+
+@media (min-width:768px) {
+    .guarantee__title {
+        font-size: 26px;
+        padding-top: 60px;
+    }
+    .guarantee__list {
+        background-color: #f1f1f1;
+        padding: 30px 60px;
+    }
+    .guarantee__list-item:not(:last-child) .guarantee__list-item--text {
+        padding-bottom: 24px;
+    }
+}
+@media (min-width:1280px) {
+    .guarantee__title {
+        font-size: 42px;
+        padding-top: 90px;
+        padding-bottom: 45px;
+    }
+    .guarantee__list-item--text {
+        font-size: 18px;
+    }
+    .guarantee__list-item:not(:last-child) .guarantee__list-item--text {
+        padding-bottom: 30px;
+    }
+    .guarantee__list {
+        padding: 45px 115px;
+    }
+}
+@media (min-width:1680px) {
+    .guarantee__title {
+        font-size: 46px;
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+    .guarantee__list-item--text {
+        font-size: 20px;
+    }
+    .guarantee__list-item:not(:last-child) .guarantee__list-item--text {
+        padding-bottom: 35px;
+    }
+    .guarantee__list {
+        padding: 60px 120px;
+    }
 }

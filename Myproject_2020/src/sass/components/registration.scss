@@ -1,0 +1,76 @@
+.registration {
+    padding: 58px 20px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.2) 0px, rgba(0, 0, 0, 0.2) 2px, transparent 2px, transparent 4px), url(../images/photos/registration-form.JPG);
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.registration__title {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 800;
+    margin: 0 auto 26px;
+    color: #ffffff;
+    width: 240px;
+}
+.orange {
+    color: #ff6b08;
+}
+.registration__descr {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    line-height: 1.8;
+    font-weight: 600;
+    margin: 0 auto 25px;
+    color: #ffffff;
+    width: 256px;
+    letter-spacing: 0.9px;
+}
+.form__input {
+    padding: 21px 19px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.form__btn {
+    width: 250px;
+    margin-top: 35px;
+    padding: 20px 14px;
+    background-color: #ff6b08;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+@media (min-width: 768px) {
+    .registration {
+        padding: 65px  40px;
+    }
+    .registration__title {
+        font-size: 22px;
+        width: 550px;
+    }
+    .registration__descr {
+        font-size: 15px;
+        width: 456px;
+    }
+    .form__input {
+        width: 400px;
+        padding: 15px 19px;
+        font-size: 15px;      
+}
+  
+  
+  

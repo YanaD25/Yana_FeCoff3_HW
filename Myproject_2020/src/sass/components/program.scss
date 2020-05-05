@@ -1,191 +1,209 @@
 .program {
-    background-color: #111517;
+    background-color: $black-color;
     padding-top: 48px;
     padding-bottom: 435px;
     position: relative;
-}
-.program__title {
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    line-height: 33px;
-    font-weight: 800;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: 0.9px;
-    margin: 0;
-}
-.program__list-item {
-    padding-top: 25px;
-    width: 190px;
-    text-align: center;
-    margin: auto;
-    position: relative;
-}
-.program__list-item:not(:last-child)::before {
-    content: "";
-    display: block;
-    width: 2px;
-    height: 100%;
-    background-color: #546264;
-    position: absolute;
-    top: 45px;
-    left: 4px;
-}
-.program__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.program__list-semester {
-    font-family: Montserrat, sans-serif;
-    font-size: 15px;
-    line-height: 29.17px;
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: left;
-    letter-spacing: 0.9px;
-    margin: 0;
-}
-.program__list-semester::before {
-    display: inline-block;
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #ff6b08;
-    border-radius: 50%; 
-    margin-right: 30px;
-}
-.program__list-title  {
-    font-family: Montserrat, sans-serif;
-    font-size: 13px;
-    line-height: 2.24;
-    font-weight: 700;
-    color: #ff6b08;
-    text-align: left;
-    letter-spacing: 0.9px;
-    padding: 16px 0;
-    margin: 0;
-}
-.program__list-title::before {
-    display: inline-block;
-    content: "";
-    width: 25px;
-    height: 2px;
-    background-color: #ff6b08;
-    margin-bottom: 4px;
-    margin-right: 8px;
-}
-.program__list-scroll {
-    padding-left: 40px;
-}
-.program_list-descr {
-    font-family: Montserrat, sans-serif;
-    font-size: 11px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #4b4d4e;
-    text-align: left;
-    margin: 0;
-    letter-spacing: 0.9px;
-}
-.program__img {
-    position: absolute;
-    right: 0;
-    bottom: 300px;
+
+    &__img {
+        position: absolute;
+        right: 0;
+        bottom: 300px;
+    }
+    &__title {
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: 800;
+        color: $white-color;
+        text-align: center;
+        letter-spacing: 0.9px;
+        margin: 0;
+    }
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        &-scroll {
+            padding-left: 40px;
+        }
+        &-descr {
+            font-family: Montserrat, sans-serif;
+            font-size: 11px;
+            line-height: 20px;
+            font-weight: 400;
+            color: $gray-color-text;
+            text-align: left;
+            margin: 0;
+            letter-spacing: 0.9px;
+        }
+
+        &-title  {
+            font-family: Montserrat, sans-serif;
+            font-size: 13px;
+            line-height: 2.24;
+            font-weight: 700;
+            color: $orange-color;
+            text-align: left;
+            letter-spacing: 0.9px;
+            padding: 16px 0;
+            margin: 0;
+
+            &::before {
+                display: inline-block;
+                content: "";
+                width: 25px;
+                height: 2px;
+                background-color: $orange-color;
+                margin-bottom: 4px;
+                margin-right: 8px;
+            }
+        }
+
+        &-semester {
+            font-family: Montserrat, sans-serif;
+            font-size: 15px;
+            line-height: 29.17px;
+            font-weight: 700;
+            color: $white-color;
+            text-transform: uppercase;
+            text-align: left;
+            letter-spacing: 0.9px;
+            margin: 0;
+
+            &::before {
+                display: inline-block;
+                content: "";
+                width: 10px;
+                height: 10px;
+                background-color: $orange-color;
+                border-radius: 50%; 
+                margin-right: 30px;
+            }
+        }
+
+        $-item {
+            padding-top: 25px;
+            width: 190px;
+            text-align: center;
+            margin: auto;
+            position: relative;
+
+            &:not(:last-child)::before {
+                content: "";
+                display: block;
+                width: 2px;
+                height: 100%;
+                background-color: $color-line;
+                position: absolute;
+                top: 45px;
+                left: 4px;
+            }
+        }
+    }
 }
 @media (min-width: 768px) {
     .program {
         padding-top: 50px;
         padding-bottom: 360px;
+
+        &__title {
+            font-size: 26px;
+            line-height: 62.54px;
+            text-align: left;
+        }  
+        &__img {
+            bottom: 250px;
+        }
+        &__list {
+            margin-left: 90px;
+    
+            &-scroll {
+                display: flex;
+                justify-content: left;
+            } 
+            &-parts {
+                width: 170px;
+    
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+            }
+            &-item {
+                text-align: left;
+                margin: 0; 
+                width: 600px; 
+            } 
+        }
     }
-    .program__title {
-        font-size: 26px;
-        line-height: 62.54px;
-        text-align: left;
-    }  
-    .program__img {
-        bottom: 250px;
     }
-    .program__list-scroll {
-        display: flex;
-        justify-content: left;
-    } 
-    .program__list-parts {
-        width: 170px;
-    }
-    .program__list-parts:not(:last-child) {
-        margin-right: 20px;
-    }
-    .program__list-item {
-        text-align: left;
-        margin: 0; 
-        width: 600px; 
-    } 
-    .program__list {
-        margin-left: 90px;
-    }
-}
 @media (min-width: 1280px) {
     .program {
         padding-top: 70px;
         padding-bottom: 510px;
         position: relative;
-    }
-    .program::before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 2px;
-        background-color: #546264;
-        position: absolute;
-        top: 165px;
-    } 
-    .program__title {
-        font-size: 42px;
-        line-height: 62.54px;
-        text-align: left;
-    } 
-    .program__list {
-        display: flex;
-        justify-content: space-between;
-        width: 1210px;
-        margin: 0;
-    }
-    .program__list-item {
-        width: 200px;
-    }
-    .program__list-item:not(:last-child)::before {
-        display: none;
-    }
-    .program__list-semester {
-        font-size: 19px;
-        line-height: 29.17px;
-    }
-    .program__list-semester::before {
-        display: block;
-        margin-bottom: 25px;
-        width: 17px;
-        height: 17px;
-    }
-    .program__list-title {
-        font-size: 18px;
-        line-height: 1.62;
-    }
-    .program_list-descr {
-        font-size: 20px;
-        line-height: 1.5;
-    } 
-    .program__list-scroll {
-       display: block; 
-       padding: 0;
-    }
-    .program__list-parts {
-        width: 200px;
-    }
-    .program__img {
-        left: 0;
-        bottom: 300px;
+
+        &__img {
+            left: 0;
+            bottom: 300px;
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #546264;
+            position: absolute;
+            top: 165px;
+        } 
+        &__title {
+            font-size: 42px;
+            line-height: 62.54px;
+            text-align: left;
+        } 
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            width: 1210px;
+            margin: 0;
+
+           &-item {
+                width: 200px;
+
+               &:not(:last-child)::before {
+                    display: none;
+                }
+            }
+
+           &-semester {
+                font-size: 19px;
+                line-height: 29.17px;
+
+                &::before {
+                    display: block;
+                    margin-bottom: 25px;
+                    width: 17px;
+                    height: 17px;
+                }              
+            }
+
+            &-title {
+                font-size: 18px;
+                line-height: 1.62;
+            }
+            &-descr {
+                font-size: 20px;
+                line-height: 1.5;
+            } 
+            &-scroll {
+               display: block; 
+               padding: 0;
+            }
+            &-parts {
+                width: 200px;
+            }
+        }
     }
 }
 @media (min-width: 1680px) {
@@ -193,39 +211,42 @@
         padding-top: 120px;
         padding-bottom: 390px;
         position: relative;
-    }
-    .program::before {
-        height: 4px;
-        position: absolute;
-        top: 265px;
-    }
-    .program__title {
-        font-size: 46px;
-        line-height: 62.54px;
-        text-align: left;
-    }
-    .program__list {
-        width: 1350px;
-    }
 
-    .program__list-semester {
-        font-size: 29px;
-        line-height: 1;
-    }     
-    .program__list-semester::before {
-        display: block;
-        margin-top: 50px;
-        margin-bottom: 45px;
-        width: 20px;
-        height: 20px;
-    }
-    .program__list-title {
-        font-size: 21px;
-        line-height: 1.4;
-    } 
-    .program__img {
-        bottom: 120px;
-    }    
+        &::before {
+            height: 4px;
+            position: absolute;
+            top: 265px;
+        }
+        &__title {
+            font-size: 46px;
+            line-height: 62.54px;
+            text-align: left;
+        }
+        &__list {
+            width: 1350px;
+
+           &-title {
+                font-size: 21px;
+                line-height: 1.4;
+            }  
+
+           &-semester {
+                font-size: 29px;
+                line-height: 1;
+
+                &::before {
+                    display: block;
+                    margin-top: 50px;
+                    margin-bottom: 45px;
+                    width: 20px;
+                    height: 20px;
+                }
+            } 
+        }
+        &__img {
+            bottom: 120px;
+        }    
+    }      
 }
    
     

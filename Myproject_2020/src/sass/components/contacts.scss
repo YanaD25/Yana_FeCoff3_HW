@@ -14,7 +14,7 @@
 .icon_phone {
     width: 22px;
     height: 22px;
-    fill: #ff6b08;
+    fill: $orange-color;
     margin-right: 8px;
 }
 .call {
@@ -29,7 +29,7 @@
     font-size: 18px;
     line-height: 37.5px;
     font-weight: 700;
-    color: #18191d;
+    color: $black-color;
     text-decoration: none;
 }
 .instagr_icon {
@@ -56,24 +56,27 @@
         width: 35px;
         height: 35px;
     }
-    .instagr_icon img  {
-        width: 37px;
-        height: 37px;
-    }
+   
     .instagr_icon {
         padding: 0 24px;
         margin-bottom: 0;
         position: relative;
-    }
-    .instagr_icon:before {
-        display: inline-block;
-        content: "";
-        width: 1px;
-        height: 29px;
-        background-color: #e0e0e0;
-        position: absolute;
-        top: 5px;
-        left: 0;
+
+        &:before {
+            display: inline-block;
+            content: "";
+            width: 1px;
+            height: 29px;
+            background-color: $gray-color-text;
+            position: absolute;
+            top: 5px;
+            left: 0;
+        }
+
+        & img  {
+            width: 37px;
+            height: 37px;
+        }
     }
 }
 @media (min-width: 1280px) {

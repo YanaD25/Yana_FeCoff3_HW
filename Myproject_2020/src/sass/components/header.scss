@@ -78,42 +78,45 @@
             width: 910px;
             display: flex;
             justify-content: space-between;
-        }
-        .menu-fall {
-            display: flex;
-            justify-content: space-between;
-            width: 570px;
-        }
-        .menu-btn-wrapper{
-            width: 300px;
-        }
-        .menu-btn-top{
-            width: 300px;
-            height: 70px;
-            font-size: 12px;
-        }
-        .menu-btn-bg {
-            display: none;
-        }
-        .menu-fall__list {
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            width: 570px;
-            align-items: center;
-        }
-        .menu-fall__link{
-            text-decoration: none;
-            font-family: "Montserrat", sans-serif;
-            font-size: 12px;
-            line-height: 1.2;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: $gray-color-menu;
-        }
-        .menu-fall__link:hover {
-            color: $orange-color;
-        }
+
+            &-btn-wrapper{
+                width: 300px;
+            }
+            &-btn-top{
+                width: 300px;
+                height: 70px;
+                font-size: 12px;
+            }
+            &-btn-bg {
+                display: none;
+            }
+
+            &-fall {
+                display: flex;
+                justify-content: space-between;
+                width: 570px;
+
+                &__list {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 570px;
+                    align-items: center;
+                }
+                &__link{
+                    text-decoration: none;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 12px;
+                    line-height: 1.2;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: $gray-color-menu;
+                }
+                &__link:hover {
+                    color: $orange-color;
+                }
+            }
+        }     
     }
     @media (min-width: 1680px) {
         .container {
@@ -121,24 +124,25 @@
         }
         .menu-fall {
             width: 630px;
-        }
-        .menu-fall__list {
-            width: 630px;
-        }
-        .menu-fall__link {
-            font-size: 14px;
 
-        }
-        .menu-btn-top {
-            font-size: 14px;
-            width: 350px;
-            height: 70px;
-        }
-        .menu-btn-wrapper{
-            width: 350px;
+            &__list {
+                width: 630px;
+            }
+            &__link {
+                font-size: 14px;
+    
+            }
         }
         .menu {
             width: 1030px;
-        }
 
+            &-btn-top {
+                font-size: 14px;
+                width: 350px;
+                height: 70px;
+            }
+            &-wrapper{
+                width: 350px;
+            }
+        }
     }

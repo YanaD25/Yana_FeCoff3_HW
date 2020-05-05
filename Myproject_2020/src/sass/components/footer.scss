@@ -1,16 +1,18 @@
 .footer {
-    background-color: #111517;
+    background-color: $black-color;
+
+   &__text {
+        font-family: Montserrat, sans-serif;
+        font-size: 11px;
+        line-height: 37.5px;
+        font-weight: 400;
+        color: $gray-color-text;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+    }
 }
-.footer__text {
-    font-family: Montserrat, sans-serif;
-    font-size: 11px;
-    line-height: 37.5px;
-    font-weight: 400;
-    color: #b9b9b9;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
-}
+
 @media (min-width: 768px) { 
 .footer__text {
     text-align: start;

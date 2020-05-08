@@ -4,42 +4,45 @@
     height: 62px;
     width: 1201px;
     margin: auto;
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        width: 1201px;
+        margin: auto;       
+    }
+
+    &__text {
+        font-family: $section-subtitle-font;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        color: $secondary-color;
+        margin-top: 24px;
+    }
+    &__text2 {
+        font-family: $section-subtitle-font;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        color: $pink-color;
+    }
 }
-.page-footer__block {
-    display: flex;
-    justify-content: space-between;
-    width: 1201px;
-    margin: auto;
-    
-}
-.page-footer__text {
-    font-family: $section-subtitle-font;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 400;
-    color: $secondary-color;
-    margin-top: 24px;
-}
-.page-footer__text2 {
-    font-family: $section-subtitle-font;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 400;
-    color: $pink-color;
-}
-.footer-button__subscribe {
-    width: 150px;
-    height: 40px;
-    background-color: $light-green;
-    border: none;
-    font-family: $section-subtitle-font;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 700;
-    color: $primary-color;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
+
 .footer-button {
     display: flex;
+
+    &__subscribe {
+        width: 150px;
+        height: 40px;
+        background-color: $light-green;
+        border: none;
+        font-family: $section-subtitle-font;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 700;
+        color: $primary-color;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
 }

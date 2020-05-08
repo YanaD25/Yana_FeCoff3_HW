@@ -1,21 +1,3 @@
-.icon-list__item {
-    width: 56px;
-    height: 56px;
-    background-color: $orange-color;
-    list-style: none;
-    fill: $pink-color;   
-
-    &:hover  button{
-    background-color:$pink-color;
-    fill:$primary-color;
-    @include transition($duration: 200ms, $ease: linear);
-    }
-}
-.image-icons {
-    top: 0;
-    left: 0;
-    width: 100%;
-}
 
 .icon-list {
     display: flex;
@@ -25,10 +7,30 @@
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
-    padding: 0;  
+    padding: 0; 
+    
+    &__item {
+        width: 56px;
+        height: 56px;
+        background-color: $orange-color;
+        list-style: none;
+        fill: $pink-color;   
+    
+        &:hover  button{
+        background-color:$pink-color;
+        fill:$primary-color;
+        @include transition($duration: 200ms, $ease: linear);
+        }
+
+        &:not(:last-child) {
+            margin-right: 2px;
+        }
+    }
 }
-.icon-list__item:not(:last-child) {
-    margin-right: 2px;
+.image-icons {
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 button {
     font-size: 0;

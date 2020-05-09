@@ -4,10 +4,7 @@
     &__title {
         margin: 0;
         padding: 40px 0;
-        font-family: Montserrat, sans-serif;
-        font-size: 20px;
-        line-height: 33px;
-        font-weight: 800;
+        @extend  %title-font;
         color: $black-color;
         text-align: center;
     }

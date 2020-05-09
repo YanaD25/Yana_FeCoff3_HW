@@ -5,10 +5,7 @@
     background-position: center bottom 250px;
 
     &-title {
-        font-family: Montserrat, sans-serif;
-        font-size: 20px;
-        line-height: 1.5;
-        font-weight: 800;
+        @extend  %title-font;
         color: $black-color;
         margin: 0;
         margin-bottom: 32px;
@@ -41,10 +38,7 @@
 }
 
 .text1 {
-    font-family: Montserrat, sans-serif;
-    font-size: 15px;
-    line-height: 20.33px;
-    font-weight: 500;
+    @extend  %text-font;
     color: $gray-color-text;
     margin: 0;
     margin-bottom: 2px;

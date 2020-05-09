@@ -10,10 +10,7 @@
     }
 
     &-title {
-        font-family: Montserrat, sans-serif;
-        font-weight: 900;
-        font-size: 20px;
-        line-height: 30px;
+        @extend  %title-font;
         color: $white-color;
         width: 240px;
         letter-spacing: 0.9px;

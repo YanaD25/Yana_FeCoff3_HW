@@ -4,10 +4,7 @@
     position: relative;
 
    &__title {
-        font-family: Montserrat, sans-serif;
-        font-size: 20px;
-        line-height: 1.8;
-        font-weight: 800;
+    @extend  %title-font;
         margin: 30px 0;
         text-align: center;
         letter-spacing: 0.9px;

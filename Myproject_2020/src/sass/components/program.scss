@@ -10,10 +10,7 @@
         bottom: 300px;
     }
     &__title {
-        font-family: Montserrat, sans-serif;
-        font-size: 20px;
-        line-height: 33px;
-        font-weight: 800;
+        @extend  %title-font;
         color: $white-color;
         text-align: center;
         letter-spacing: 0.9px;
@@ -32,7 +29,7 @@
             font-size: 11px;
             line-height: 20px;
             font-weight: 400;
-            color: $gray-color-text;
+            color: #4b4d4e;
             text-align: left;
             margin: 0;
             letter-spacing: 0.9px;
@@ -82,7 +79,7 @@
             }
         }
 
-        $-item {
+        &-item {
             padding-top: 25px;
             width: 190px;
             text-align: center;

@@ -10,3 +10,11 @@
     line-height: 20.33px;
     font-weight: 500;
 }
+%position-background {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+%flexbox {
+    display: flex;
+    justify-content: space-between; 
+}

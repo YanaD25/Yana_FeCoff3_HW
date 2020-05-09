@@ -1,7 +1,6 @@
 .card {
     background-image: url(../images/wave.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    @extend %position-background;
     background-position: center bottom 250px;
 
     &-title {

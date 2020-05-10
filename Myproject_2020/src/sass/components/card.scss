@@ -95,22 +95,18 @@
     }
 }
 .svg-wrapper {
-    position: absolute;
-    left: 0;
-    top: 0;
+    @include position (absolute, 0, null, null, 0);
     width: 58px;
     height: 58px;
     border: 2px solid $orange-color;  
 
     &::after {
-        position: absolute;
+        @include position (absolute, 50%, -3px);
         display: block;
         content: ""; 
         width: 4px;
         height: 36px;
         background-color: $white-color;
-        top: 50%;
-        right: -3px;
         transform: translateY(-50%);
     }
 }
